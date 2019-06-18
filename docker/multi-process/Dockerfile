@@ -1,4 +1,4 @@
-FROM ubuntu:arm32v7
+FROM arm32v7/ubuntu:18.04
 
 COPY docker/scripts/prepare /scripts/
 RUN /scripts/prepare
